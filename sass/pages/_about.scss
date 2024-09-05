@@ -1,0 +1,21 @@
+@import "../variable/variable";
+@import "../mixin/font";
+
+.about_us_page{
+  margin-top: 0;
+  margin-bottom: -100px;
+  .main{
+    .about-one__image{
+      float: left;
+      margin-right: 55px;
+      margin-bottom: 10px;
+    }
+    .inner_image{
+      margin: 0 auto;
+      float: left;
+      margin-right: 30px;
+      margin-bottom: 18px;
+      width: 52%;
+    }
+  }
+}
